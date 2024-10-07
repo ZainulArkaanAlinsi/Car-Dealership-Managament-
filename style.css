@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+    color: #9ebcaa;
+    padding: 20px;
+}
+
+h1 {
+    color: hsl(40, 100%, 50%);
+    justify-content: center;
+    position: relative;
+    left: 5em;
+}
+
+.form-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    position: relative;
+    left: 15em;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+}
+
+button {
+    background-color: rgb(145, 215, 126);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+button:hover {
+    background-color: #81beec;
+}
+
+.car-list {
+    width: 70%;
+    padding: 9px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    justify-content: center;
+    position: relative;
+    left: 15em;
+}
+
+.car-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+}
+
+.car-item .car-model,
+.car-item .car-price {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #f1f0f2;
+    border-radius: 5px;
+}
+
+.car-item.selected {
+    border: 2px solid #cf9626;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.car-item span {
+    font-size: 18px;
+    font-weight: bold;
+}
